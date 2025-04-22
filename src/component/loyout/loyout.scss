@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.loyout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 1;
+    text-align: center;
+    padding: 25px 0;
+}
