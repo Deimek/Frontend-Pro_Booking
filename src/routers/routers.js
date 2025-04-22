@@ -2,15 +2,15 @@ import React from 'react';
 import { createHashRouter } from "react-router-dom";
 import Loyout from "../component/loyout/loyout.js";
 import Home from "../pages/home/home.js";
-import Todo from "../pages/todo/todo.js";
-import Swapi from "../pages/swapi/swapi.js";
+import About from '../pages/About/about.js';
+import Hotels from '../pages/hotels/hotels.js';
 
 
 
 export const menuItems = [
-    { link: '/', path: '', caption: 'Home page', component: <Home /> },
-    { link: '/about', path: 'about', caption: 'Todo', component: <Todo /> },
-    { link: '/contact', path: 'contact', caption: 'SWAPI', component: <Swapi /> },
+    { link: '/', index: true, caption: 'Home', component: <Home />, isMenuItems: true },
+    { link: '/about', path: 'about', caption: 'About', component: <About />, isMenuItems: true },
+    { link: '/hotels', path: 'hotels', caption: 'Hotels', component: <Hotels /> },
 ]
 
 
@@ -20,7 +20,8 @@ const router = createHashRouter([
         path: "/",
         element: <Loyout />,
         children: [
-            ...menuItems.map(({ path, component }) => ({ path, element: component }))
+            ...menuItems.map(({ path, index, component }) =>
+                index ? { index: true, element: component } : { path, element: component })
         ]
     }
 ])

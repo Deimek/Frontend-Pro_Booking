@@ -1,11 +1,11 @@
 import React from "react";
 
-const Swapi = () => {
+const Hotels = () => {
 
 
     return (
         <div>
-            <h2>SWAPI page</h2>
+            <h2>Hotels page</h2>
             <div>Loading...</div>
         </div>
 
@@ -14,4 +14,4 @@ const Swapi = () => {
 
 }
 
-export default Swapi;
+export default Hotels;

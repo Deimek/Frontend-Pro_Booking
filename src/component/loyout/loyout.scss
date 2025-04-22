@@ -7,17 +7,32 @@ body,
     padding: 0;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
 
 .loyout {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 100%;
     box-sizing: border-box;
 }
 
 .main-content {
     flex: 1;
-    text-align: center;
+
     padding: 25px 0;
+}
+
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: rgb(17, 2, 61);
+    color: white;
 }

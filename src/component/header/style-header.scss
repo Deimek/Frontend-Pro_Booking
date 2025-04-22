@@ -1,14 +1,67 @@
-.header-content {
-    display: flex;
-    min-height: 100px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 0;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.nav__header {
+
+
+
+.header-content {
     display: flex;
-    gap: 25px;
-    padding: 20px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 5px solid lightgray;
+
+    &__booking-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    &__booking-wrapper {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__booking-icon {
+        width: 45px;
+        height: 45px;
+        background-color: orange;
+        border-radius: 50px;
+    }
+
+    &__booking-title {
+        color: orange;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+
+    &__booking-theme {}
+
+    &__nav-menu {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    &__nav-menu-limk {
+        color: white;
+        background-color: orange;
+        border-color: orange;
+        text-decoration: none;
+        padding: 5px;
+    }
+}
+
+.btn-theme {
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    cursor: pointer;
+    padding: 5px;
 }
