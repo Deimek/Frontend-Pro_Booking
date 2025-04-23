@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Hotels = () => {
 
+    useEffect(() => {
+        fetch('/static/db.json')
+            .then(res => res.json())
+            .then(data => console.log(data));
+    }, []);
 
     return (
         <div>

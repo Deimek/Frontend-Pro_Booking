@@ -1,7 +1,7 @@
 import React from 'react';
 import { createHashRouter } from "react-router-dom";
 import Loyout from "../component/loyout/loyout.js";
-import Home from "../pages/home/home.js";
+import Home from "../pages/home/home-content.js";
 import About from '../pages/About/about.js';
 import Hotels from '../pages/hotels/hotels.js';
 

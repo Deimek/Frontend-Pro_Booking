@@ -26,12 +26,6 @@
         gap: 10px;
     }
 
-    &__booking-icon {
-        width: 45px;
-        height: 45px;
-        background-color: orange;
-        border-radius: 50px;
-    }
 
     &__booking-title {
         color: orange;
@@ -41,7 +35,9 @@
         align-items: center;
     }
 
-    &__booking-theme {}
+    &__booking-theme {
+        border-color: orange;
+    }
 
     &__nav-menu {
         display: flex;
@@ -60,8 +56,11 @@
 
 .btn-theme {
     color: white;
+    width: 45px;
+    height: 45px;
     background-color: orange;
-    border-color: orange;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
-    padding: 5px;
+    padding: 0;
 }

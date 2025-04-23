@@ -37,12 +37,12 @@ const Header = () => {
         <div className="header-content">
             <div className="header-content__booking-container">
                 <div className="header-content__booking-wrapper">
-                    <div className="header-content__booking-icon"></div>
+                    <div className="header-content__booking-theme">
+                        <button className="btn-theme" onClick={changeTheme}>{theme}</button>
+                    </div>
                     <div className="header-content__booking-title">Boooking</div>
                 </div>
-                <div className="header-content__booking-theme">
-                    <button className="btn-theme" onClick={changeTheme}>{theme}</button>
-                </div>
+
             </div>
 
             <nav className="header-content__nav-menu">

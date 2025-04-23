@@ -5,6 +5,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CssPlugin from 'mini-css-extract-plugin';
 import CssMinimizerPlugin from 'css-minimizer-webpack-plugin';
 import ImageMinimizerPlugin from "image-minimizer-webpack-plugin";
+import CopyPlugin from "copy-webpack-plugin";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,6 +43,12 @@ export default {
                 },
             },
         }),
+        new CopyPlugin({
+            patterns: [
+                { from: "static", to: "static" },
+            ],
+        }),
+
     ],
     optimization: {
         minimizer: [

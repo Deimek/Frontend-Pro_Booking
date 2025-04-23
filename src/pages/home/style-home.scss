@@ -1,0 +1,15 @@
+.home-content {
+    &__title {
+        display: flex;
+        gap: 5px;
+    }
+
+    &__title span {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    &__title span.orang {
+        color: orange;
+    }
+}

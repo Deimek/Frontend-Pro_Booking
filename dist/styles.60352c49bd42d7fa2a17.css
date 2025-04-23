@@ -1,0 +1,141 @@
+/*!*********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/header/style-header.scss ***!
+  \*********************************************************************************************************************************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  min-height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: 5px solid lightgray;
+}
+.header-content__booking-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-content__booking-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.header-content__booking-title {
+  color: orange;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.header-content__booking-theme {
+  border-color: orange;
+}
+.header-content__nav-menu {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.header-content__nav-menu-limk {
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.btn-theme {
+  color: white;
+  width: 45px;
+  height: 45px;
+  background-color: orange;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 0;
+}
+/*!*********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/footer/style-footer.scss ***!
+  \*********************************************************************************************************************************/
+.footer-content {
+  display: flex;
+  min-height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  background-color: orange;
+}
+.footer-content__title {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+/*!***************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/loyout/loyout.scss ***!
+  \***************************************************************************************************************************/
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.loyout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1;
+  padding: 25px 0;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: rgb(17, 2, 61);
+  color: white;
+}
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/home/style-home.scss ***!
+  \*************************************************************************************************************************/
+.home-content__title {
+  display: flex;
+  gap: 5px;
+}
+.home-content__title span {
+  font-size: 50px;
+  font-weight: bold;
+}
+.home-content__title span.orang {
+  color: orange;
+}
+/*!***************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/About/style-about.scss ***!
+  \***************************************************************************************************************************/
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-content__title {
+  font-size: 30px;
+  font-weight: bold;
+}
