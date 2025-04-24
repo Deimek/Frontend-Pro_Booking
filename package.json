@@ -1,5 +1,5 @@
 {
-  "homepage": "/",
+  "homepage": "https://deimek.github.io/home-work_40",
   "scripts": {
     "start": "webpack serve --open --history-api-fallback",
     "build": "webpack",

@@ -17,8 +17,8 @@ export default {
         path: path.resolve(__dirname, 'dist'),
         filename: 'build.[contenthash].js',
         clean: true,
-        publicPath: '/',
-        //publicPath: '/home-work_40/',
+        // publicPath: '/',
+        publicPath: '/home-work_40/',
     },
     plugins: [
         new HtmlWebpackPlugin({
