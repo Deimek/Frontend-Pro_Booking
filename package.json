@@ -1,5 +1,5 @@
 {
-  "homepage": "https://deimek.github.io/home-work_40",
+  "homepage": "https://deimek.github.io/Frontend-Pro_Booking",
   "scripts": {
     "start": "webpack serve --open --history-api-fallback",
     "build": "webpack",

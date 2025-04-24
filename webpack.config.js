@@ -18,7 +18,7 @@ export default {
         filename: 'build.[contenthash].js',
         clean: true,
         // publicPath: '/',
-        publicPath: '/home-work_40/',
+        publicPath: '/Frontend-Pro_Booking/',
     },
     plugins: [
         new HtmlWebpackPlugin({
