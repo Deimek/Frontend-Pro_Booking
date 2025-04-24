@@ -31,7 +31,7 @@ const Hotels = () => {
                     {hotelsList.map(({ id, name, address, city, state, country_code }) => (
                         <Card key={id} sx={{ minWidth: 275, maxWidth: 275 }}>
                             <CardContent>
-                                <img src="/static/hotel.png" alt="Hotel by the sea" className="hotels-list-item-img" />
+                                <img src="./static/hotel.png" alt="Hotel by the sea" className="hotels-list-item-img" />
                                 <h3>{name}</h3>
                                 <div>address: {address}</div>
                                 <div>
