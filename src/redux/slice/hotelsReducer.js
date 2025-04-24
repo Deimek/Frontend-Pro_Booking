@@ -8,7 +8,7 @@ export const fetchHotels = createAsyncThunk('hotels/fetchHotels', async () => {
     // const resp = await fetch('/static/db.json');
     // return await resp.json();
 
-    const { data } = await axios.get('/static/db.json');
+    const { data } = await axios.get('./static/db.json');
     return data;
 
     // let resp = await fetch('/static/db.json');
